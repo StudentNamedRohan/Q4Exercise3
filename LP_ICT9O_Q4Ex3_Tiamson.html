@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <title>Q4 | Exercise 3</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+<div class="container" style="font-size: 2em;">
+<body>
+  <h1 style= "font-family:Garamond;color:black;"><span style="background-color:blue;">Exercise 3 - JavaScript Arithmetic Operators</span></h1>
+  <p><mark>num_1 = 10, num_2 = 20;</mark></p>
+  <ol type="1.">
+
+  <li>num_1 + num_2 = <strong id="p1"></strong></li>
+  <li>num_2 - num_1 = <strong id="p2"></strong></li>
+  <li>num_1 * num_2 = <strong id="p3"></strong></li>
+  <li>num_1 / num_2 = <strong id="p4"></strong></li>
+  <li>num_1 % num_2 = <strong id="p5"></strong></li>
+
+  </ol>
+
+  <script>
+
+    let num_1=10, num_2=20;
+    let sum = num_1 + num_2;
+
+    alert("The sum of two numbers: " + sum);
+
+    //variable declaration;assignment of values
+    document.getElementById("p1").innerHTML = num_1 + num_2;
+    document.getElementById("p2").innerHTML = num_2 - num_1;
+    document.getElementById("p3").innerHTML = num_1 * num_2;
+    document.getElementById("p4").innerHTML = num_1 / num_2;
+    document.getElementById("p5").innerHTML = num_1 % num_2;
+
+  </script>
+
+</body>
+</div>
